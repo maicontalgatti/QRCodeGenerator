@@ -1,0 +1,845 @@
+<html>
+
+<!--
+
+
+    
+	// 	echo $hragr;
+	// echo '<BR>';
+	// echo $sess_err;
+	// echo '<BR>';
+	// echo $err; 
+    // $sql= 'SELECT * FROM registra_movimento WHERE ip="'.$ip.'"';
+    // $result = mysqli_query($con, $sql);
+    // $row = mysqli_fetch_array($result);
+    // $hora_erro = $row["hora_erro"];
+    // $diferenca_ban = ($hora_erro - $hora);
+    // if ($diferenca_ban < 60 ){
+    // 	echo 'BANIDO';// echo $hragr;
+	// echo '<BR>';
+	// echo $sess_err;
+	// echo '<BR>';
+	// echo $err;
+    // }
+    // echo '<BR>';
+    // echo $hora;
+    // echo '<BR>';
+    // echo $ip;
+    // echo '<BR>';
+    // echo $row["ip"];
+    // echo '<BR>';
+    // echo $row["hora_erro"];
+    // echo '<BR>';
+    // echo $diferenca_ban;
+	// echo '<br>';
+    // $start_date = new DateTime('2007-09-01 04:10:58');
+    // $since_start = $start_date->diff(new DateTime('2012-09-11 10:25:00'));
+    // echo 'olá '.$since_start;
+    // echo '<br>';
+	// echo $row["hora_erro"];
+    /*
+    if($num_tentativas_bd > '5'){
+	}
+    */
+
+
+    
+    
+    // $('#onoff1<?php //echo $i;
+                    ?>').onclick(function() {
+    // alert("Estamos no click<?php //echo $i;
+                                ?>")
+    // var estado = document.getElementById('estado<?php //echo $i;
+                                                    ?>');
+    // var el = this;aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+    // estado.innerHTML = el.checked ? 'ligado' : 'desligado';
+    // // aqui podes juntar a lógica do ajax
+    // $.ajax({
+    //     url: "some.php",
+    //     data: {
+    //         estado: this.checked
+    //     }
+    // }).done(function(msg) {
+    //     if (msg == 'failed') return el.checked = !el.checked; // caso o servidor retorne "failed" mudar o estado do botão
+    //     else alert("Info gravada: " + msg);
+    // });
+    // });
+    /*///////////////////
+
+        ADD FOLDER - PROJETO
+
+    ////////////////////*/
+
+    /*///////////////////
+
+        MANIPULAR PROJETO
+
+    ////////////////////*/
+
+    /*///////////////////
+
+        MANIPULAR ARQUIVO
+
+    ////////////////////*/
+
+    // /////////////////-------first modal--------//////////////// 
+
+    // //extrai infos
+    //     var modal = document.getElementById("myModal"); // Get the modal
+    //     var btn = document.getElementById("myBtn"); // Get the button that opens the modal
+    //     var span = document.getElementsByClassName("close")[0]; // Get the <span> element that closes the modal
+    //     var segundomodal = document.getElementById("segundomodal");
+    //     var span2 = document.getElementsByClassName("close"); // Get the <span> element that closes the modal
+
+    //     btn.onclick = function() { 
+    // // When the user clicks on the button, open the modal
+    //         modal.style.display = "block";
+    //     }
+    //     span.onclick = function() { 
+    //  // When the user clicks on <span> (x), close the modal
+    //  segundomodal.style.display = "none";
+    //     }
+    //     span2.onclick = function() { 
+    //  // When the user clicks on <span> (x), close the modal
+    //         modasegundomodall.style.display = "none";
+    //     }
+    //     window.onclick = function(event) { 
+    // // When the user clicks anywhere outside of the modal, close it
+    // if (event.target == modal) {
+    //             modal.style.display = "none";
+    //             console.log("chegou o windwo 1")
+    // }
+
+    // ////////////////       second modal          //////////////// 
+
+    //     }
+    //     window.onclick = function(event) { // When the user clicks anywhere outside of the modal, close it // quando clicar fora do modal, fecha janela
+    //         if (event.target == modal_option) {
+    //             modal_option.style.display = "none";
+    //             console.log("chegou o windwo 2");
+    //         }
+    //     }
+    // //extrai infos
+    //     var modal_option = document.getElementById("myModaloption"); // Get the modal  // o modal
+    //     var span_option = document.getElementsByClassName("closeoption")[0]; // Get the <span> element that closes the modal // span que fecha modal
+    // //abre o modal
+    //     $('div>#oBotao').click(function() {
+    //         modal_option.style.display = "block";
+    //         console.log("abre o modal",)
+    //     })
+    // //clicar no X para fechar
+    //     span_option.onclick = function() { // When the user clicks on <span> (x), close the modal // quando clicar no X , fecha modal
+    //         modal_option.style.display = "none";
+    //         thirdmodal.style.display = "none";
+    //         console.log("clicar no X para fechar",)
+    //     }
+    // //clicar fora do modal faz ele fechar
+    //     window.onclick = function(event) { // When the user clicks anywhere outside of the modal, close it // quando clicar fora do modal, fecha janela
+    //         if (event.target == modal_option) {
+    //             modal_option.style.display = "none";
+    //             modal_option.style.display = "none";
+    //             console.log("clicar fora do modal faz ele fechar")
+    //         }
+    //     }
+    // //substitui titulo modal
+    //     $('div>#oBotao').click(function() {
+    //         var nomeProjeto = $(this).data("whatever");
+    //         $(".modal-title").text(nomeProjeto);
+    //         console.log("substitui titulo modal e VALUES ",nomeProjeto,"a");
+    //         // $("#projeto").text(nomeProjeto);
+    //         document.querySelector("#projetoexcluir").value = nomeProjeto;
+    //         document.querySelector("#projeto2").value = nomeProjeto;
+    //         // <input class='' name='cliente' data-projeto='' id='projeto' value='".$arquivo."'>
+    //     })
+    //     $('#frenomear').on("click", function(event) {
+    //         var t = document.getElementById("cliente2")
+    //         t.value = z;
+    //     })  
+
+    <div class='modal-body'>
+            <form action='_renomeia_projeto.php' method='post'>
+                <input class='hidden' name='confirmacao' value='ok'>
+                <input class='hidden' name='projeto2' value=' //echo $projeto; '>
+                <input class='hidden' name='cliente2' value=' //echo $t_cliente; '>
+                <h5 class='modal-title2' id='exampleModalLabel3' id='fontenome3'>Renomear</h5>
+                <input type='text' name='newname' id='newname' value='' required='required' pattern='[a-zA-Z0-9- ---+-_-.-ç]+'>
+                <input type='submit' value='Renomear projeto' class='tiraefeito border2'>
+            </form>
+        </div> 
+
+    // ////////////////      third       /////////////////
+    // var modalopt = document.getElementById("mymodaloption"); // Get the modal
+    // var btnopt = document.getElementById("myBtnoption"); // Get the button that opens the modal
+    // var spanopt = document.getElementsByClassName("close"); // Get the <span> element that closes the modal
+    // var modalopt = $("#mymodaloption");
+
+    //     $('div>#oBotao').click(function() {
+    //             modal_option.style.display = "block";
+    //             console.log("qqqqqqqqqqqqqqqqqqqqqabre o modal",)
+    //     });
+
+    //     //abre o modal
+    //     $('div>#myBtnoption').click(function(){
+    //         document.getElementById("mymodaloption").style('display:block');
+    //         console.log("amigo estou aqui");
+    //     }); 
+
+    //     btnopt.click(function() {
+    //     modalopt.style.display = "none";
+    //         console.log("abre o third modal")
+    //     });
+    //     spanopt.click(function() {
+    //     modalopt.style.display = "none";
+    //         console.log("abre o third modal")
+    //     });
+
+    //     //substitui titulo modal
+    //     $('div>#abrethird').click(function() {
+    //         var nomeprojeto = $(this).data("projeto");
+    //         var nomearquivo = $(this).data("arquivo");
+    //         $(".modal-title").text(nomeprojeto );
+    //         //console.log("substitui titulo modal e VALUES ",nomeProjeto,"a",$arquivo);
+    //         // $("#projeto").text(nomeProjeto);
+    //         // document.querySelector("#projetoexcluir").value = nomeProjeto;
+    //         // document.querySelector("#projeto2").value = nomeProjeto;
+    //         // <input class='' name='cliente' data-projeto='' id='projeto' value='".$arquivo."'>
+    //     });
+////////////////////////// miolo
+                                                <iframe style="width:100px;height:100px;">
+                                                    <?php    
+                                                        ';
+                                                        
+                                                        $token = $row["token"];
+                                                        $caminho_arquivo_banco = ("?arquivo=".$token);
+                                                        QRcode::png("documentos.ampla.ind.br/geradorqrcode/final.php".$caminho_arquivo_banco."");
+                                                        echo '
+                                                    ?>
+                                                </iframe>
+                    
+                                                    <ul>
+                                                    ";
+                    ?>
+                            <script>
+                                $("#demo<?php echo $i; ?>").click(function() {
+                                    var a = $('#toaqui<?php echo $i; ?>').css("display");
+                                    if (a == "none") {
+                                        $('#toaqui<?php echo $i; ?>').css("display", "block");
+                                    } else {
+                                        $('#toaqui<?php echo $i; ?>').css("display", "none");
+                                    }
+                                    console.log(a);
+                                    console.log("alooo");
+                                    console.log(<?php echo $i; ?>);
+                                })
+                            </script>
+                            <?php
+                            $path2 = ('arquivos/' . $t_cliente . '/' . $projeto);
+                            $diretorio2 = dir($path2);
+                            $j = 0;
+                            
+                            while ($arquivo = $diretorio2->read()) {
+                                if (($arquivo == ".") || ($arquivo == "..")) {
+                                } else {
+                                    echo "  
+                                <li class='list-group-item back' >
+                                    <div class='col-12'>
+                                        <img src='imgs/book_blue.ico' id='right' class='icons'>
+                                            <a href='#' style='margin-left:20px;'>$arquivo </a>
+                                        <a href='#manipulaarquivomodal" . $i . $j . "' rel='modal:open' class='hover' style='float:right;'>
+                                            <img src='imgs/3balls.ico' class='iconsr'>
+                                        </a>
+                                    </div>
+                                </li>
+       <script src="assets/demo/chart-area-demo.js"></script> -->
+        <!-- <script src="assets/demo/chart-bar-demo.js"></script> -->
+        <!-- <script src="../codigo/includes/js/scripts.js"></script> -->
+        <!-- <script src="/codigo/script.php"></script> -->
+        <!-- <link href="../codigo/css/styles.css" rel="stylesheet" /> -->
+        <!-- /* 
+        button.tooltip{  position:relative;   font-size:12px;   color:#039;  text-decoration:none;  cursor:help;   }  
+        button.tooltip:hover{  background:transparent;  color:#f00;  z-index:25;   } 
+        button.tooltip {display: none  } 
+        button.tooltip:hover span{   display:block;  position:absolute;  width:210px;   top:20px;  left:0;  font-size: 12px;  padding:5px;  border:1px solid #999;  background:#e0ffff;   color:#000;  }
+            
+	// $login = (isset($_COOKIE['Cookielogin'])) ? base64_decode($_COOKIE['Cookielogin']) : '';
+	// $senha = (isset($_COOKIE['CookieSenha'])) ? base64_decode($_COOKIE['CookieSenha']) : '';
+	// $lembrete = (isset($_COOKIE['CookieLembrete'])) ? base64_decode($_COOKIE['CookieLembrete']) : '';
+	// $checked = ($lembrete == 'SIM') ? 'checked' : '';
+
+
+        1
+            // mysqli_query($con, $sql);  
+            // $ip = $_SERVER['REMOTE_ADDR'];
+            // $usuario = $_SESSION["nome_completo"];
+            // $data_mod = Date('d/m/y-H:i:s');
+            // $pagina = basename( __FILE__ );
+            // include("class.ipdetails.php");
+            // $ipdetails = new ipdetails($ip);
+            // $ipdetails ->scan();
+            // $city = $ipdetails ->get_city();
+            // $location = $city;
+            // $sql = 'INSERT INTO registra_movimento(usuario, pagina, ip, hora, geo_location) VALUES ("'.$usuario.'","'.$pagina.'","'.$ip.'","'.$data_mod.'","'.$location.'")';
+            // $con->query($sql);*/ -->
+          <!-- <script src="assets/demo/datatables-demo.js"></script> -->
+                                    <!-- MANIPULA ARQUIVO -->
+
+<!-- 
+                <div id='manipulaarquivomodal" . $i . $j . "' class='modal' style='height:200px;width:300px;'>
+                    <h5 class='modal-title'>" . $projeto . "</h5>
+                    
+                        <div class='modal-body'>
+                        <form action='delete_arquivo.php' method='post'>
+                            <input class='hidden' name='confirmacao' value='ok'>
+                            <input class='hidden' name='projeto' value='" . $projeto . "'>
+                            <input class='hidden' name='cliente' value='" . $t_cliente . "'>
+                            <input class='hidden' name='arquivo' value='" . $arquivo . "'>
+                            <h5 class='modal-title2' id='exampleModalLabel2' id='fontenome2'>Exclusão</h5>
+                            <input type='submit' name='confirmacao2' value='Excluir arquivo' id='xexcluir' class='tiraefeito'>
+                        </form>
+                        </div>
+                    
+                                </div>
+                                ";
+                                    $j++;
+                                }
+                            };
+    // mysqli_query($con, $sql);  
+    // $ip = $_SERVER['REMOTE_ADDR'];
+    // $usuario = $_SESSION["nome_completo"];
+    // $data_mod = Date('d/m/y-H:i:s');
+    // $pagina = basename( __FILE__ );
+    // include("class.ipdetails.php");
+    // $ipdetails = new ipdetails($ip);
+    // $ipdetails ->scan();
+    // $city = $ipdetails ->get_city();
+    // $location = $city;
+    // $sql = 'INSERT INTO registra_movimento(usuario, pagina, ip, hora, geo_location) VALUES ("'.$usuario.'","'.$pagina.'","'.$ip.'","'.$data_mod.'","'.$location.'")';
+    // $con->query($sql);
+  //<!-- <script src="assets/demo/datatables-demo.js"></script> -->
+
+                            ?>
+                            </ul>
+ -->    
+
+
+<!-- 
+                                    $("#demo<?php echo $i; ?>").click(function() {
+                                        var a = $('#toaqui<?php echo $i; ?>').css("display");
+                                        if (a == "none") {
+                                            $('#toaqui<?php echo $i; ?>').css("display", "block");
+                                        } else {
+                                            $('#toaqui<?php echo $i; ?>').css("display", "none");
+                                        }
+                                        console.log(a);
+                                        console.log("alooo");
+                                        console.log(<?php echo $i; ?>);
+                                    })
+                                </script>
+                                <?php
+                                $path2 = ('arquivos/' . $t_cliente . '/' . $projeto);
+                                $diretorio2 = dir($path2);
+                                $j = 0;
+                                while ($arquivo = $diretorio2->read()) {
+                                    if (($arquivo == ".") || ($arquivo == "..")) {
+                                    } else {
+                                        <!-- echo "   -->
+                                    <!-- <li class='list-group-item back' >
+                                        <div class='col-12'>
+                                            <img src='imgs/book_blue.ico' id='right' class='icons'>
+                                                <a href='#' style='margin-left:20px;'>$arquivo </a>
+                                            <a href='#manipulaarquivomodal" . $i . $j . "' rel='modal:open' class='hover' style='float:right;'>
+                                                <img src='imgs/3balls.ico' class='iconsr'>
+                                            </a>
+                                        </div>
+                                    </li>
+
+
+ --> 
+
+<!-- 
+
+
+    Botões comuns que escondem conteudo
+    <p>
+        <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
+            aria-controls="collapseExample">
+            Link com href
+        </a>
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
+            aria-expanded="false" aria-controls="collapseExample">
+            Botão com data-target
+        </button>
+    </p>
+    <div class="collapse" id="collapseExample">
+        <div class="card card-body">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim
+            keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+        </div>
+    </div> --> -->
+
+
+
+    <!-- 
+        Role button 
+        
+        <div class="btn-group" role="group">
+        <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </button>
+        <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+          <a class="dropdown-item" href="#">Link dropdown</a>
+          <a class="dropdown-item" href="#">Link dropdown</a>
+        </div>
+    </div>
+
+     
+    <link url="https://github.com/nodejs/node.git"> -->
+    <!-- <script src="node-v14.17.1/node.gyp"></script>
+    <script src="node-v14.17.1/node.gypi"></script>
+    <script src="/node-v14.17.1-linux-x64/lib/node_modules/"></script>
+    <script src="require.js"></script> -->
+
+    <!-- import { hello } from './module.js'; -->
+    <!-- <script src="/package.json"></script> -->
+    <!-- <script src="/package-lock.json"></script> -->
+    <!-- <script type="module" src="require.js"></script> -->
+    <!-- <script src="node_modules/mkdirp/lib/mkdirp-native.js"></script> -->
+    <!-- <script type="module" src="/node_modules/mkdirp/index.js"></script> -->
+    <!-- <script src="node_modules/mkdirp/index.js"></script> -->
+    <!-- <script src="mkdir/lib/mkdir.js"></script> -->
+    <!-- <script type="module" src="node_modules/mkdirp/lib/mkdir.js"></script> -->
+    <!-- <script type="module" src="node-v14.17.1/lib/fs.js"></script> -->
+    <!-- <script type="module" src="node-v14.17.1/lib/fs/promises.js"></script> -->
+    <!-- <script type="module" src="node_modules/mkdirp/bin/cmd.js"></script> -->
+    <!-- <script type="module" src="node_modules/mkdirp/lib/find-made.js"></script> -->
+    <!-- <script type="module" src="node_modules/mkdirp/lib/mkdirp-manual.js"></script> -->
+    <!-- <script type="module" src="node_modules/mkdirp/lib/mkdirp-native.js"></script> -->
+    <!-- <script type="module" src="node_modules/mkdirp/lib/opts-arg.js"></script> -->
+    <!-- <script type="module" src="node_modules/mkdirp/lib/path-arg.js"></script>
+    <script type="module" src="node_modules/mkdirp/lib/use-native.js"></script>
+    <script type="module" src="node_modules/mkdir/package.json"></script>
+
+    //     $(document).ready(function(){
+    //     $('.button').click(function(){
+    //         var clickBtnValue = $(this).val();
+    //         var ajaxurl = 'ajax.php',
+    //         data =  {'action': clickBtnValue};
+    //         $.post(ajaxurl, data, function (response) {
+    //             // Response div goes here.
+    //             alert("action performed successfully");
+    //         });
+    //     });
+    // });
+
+    // include "ajax.php";
+    /* .botazinho { */
+        /* color: black; */
+        /* } */ 
+        // $sql = "NOME CLIENTE"; 
+      // function mostramodal(){
+    //     modal.style.display = 'block';
+    // }
+        // mostramodal(){
+        //     modal.style.display = "block";
+        // }
+    // var modal2 = document.getElementById("myModal2"); // Get the modal
+    // var btn2 = document.getElementById("myBtn2"); // Get the button that opens the modal
+    // var span2 = document.getElementsByClassName("close2")[0]; // Get the <span> element that closes the modal
+
+    // btn2.onclick = function() { // When the user clicks on the button, open the modal
+    //     modal.style.display = "block";
+    // }
+    // span2.onclick = function() { // When the user clicks on <span> (x), close the modal
+    //     modal.style.display = "none";
+    // }
+    // window2.onclick = function(event) { // When the user clicks anywhere outside of the modal, close it
+    //     if (event.target == modal) {
+    //         modal.style.display = "none";
+    //     }
+    // }
+    // var enviar = document.getElementById("enviarcliente"); // Get the button
+    // var nomecliente = document.getElementById("nomecliente"); // Get the input
+
+    // enviar.onclick = function(event) { // When the user clicks on the button, open the modal
+    //     // File diretorio = new File(path + "arquivos/");
+    //     // diretorio.mkdir();
+    //     //const fs = require([fs])
+    //     const dir = ("arquivos/pastateste/");
+    //     // fs.appendFile([dir])
+    //     // fs.mkdirSync(dir,0777)
+    //     mkdir(dir, 0777)
+    //     alert("a")
+    // };
+
+
+
+
+
+
+
+    // var taouna = "block";
+    // $("#uncollapse").click(function(){
+    //     // $("#demo /*echo $i*/;?>").style.css("display", taouna);
+    // if ( $("#demo /*echo $i*/?>").is( ".show .in" ) ) {
+    //         $("#demo /* echo $i*/?>").removeClass(".show");
+    //         $("#demo/* echo $i*/?>").removeClass(".in");
+    //         console.log("Dentro do ife ")
+    //         console.log( $("#demo/* echo $i*/?>"))
+    //     }
+    //     console.log("fora do ife");
+    // })
+    // $("#clicarbtn").click(function() {
+
+    //     console.log("Clicando");
+
+    //     $("#descollapsar").css("display","block");
+
+
+
+    // }); 
+    // descollapsar
+    // $header = $(this);
+    // $descollapse = document.getElementById("#descollapsar");
+    //$header = document.getElementById("#clicarbtn");
+    // .css("color", "red");
+    // console.log($header);
+    //getting the next element
+    // $content = $header.next();
+    //open up the content needed - toggle the slide- if visible, slide up, if not slidedown.
+    // $content.slideToggle(500, function() {
+    //execute this after slideToggle is done
+    //change text of header based on visibility of content div
+    //$header.text(function () {
+    //change text based on condition
+    //    return $content.is(":visible") ? "Collapse" : "Expand";
+    // });
+    // });
+
+    // $('#exampleModal').on('show.bs.modal', function(event) {
+    //     zwindow = $('#exampleModal').onclick();
+    //     console.log("entrou no click");
+    //     var button = $(event.relatedTarget); // Botão que acionou o modal
+    //     var recipient = button.data('whatever'); // Extrai informação dos atributos data-*
+    //     // Se necessário, você pode iniciar uma requisição AJAX aqui e, então, fazer a atualização em um callback.
+    //     // Atualiza o conteúdo do modal. Nós vamos usar jQuery, aqui. No entanto, você poderia usar uma biblioteca de data binding ou outros métodos.
+    //     var modal = $(this);
+    //     console.log("passou pelas variaveis");
+    //     modal.find('.modal-title').text(recipient);
+
+    //     z = button.data('whatever');
+    //     // alert (z);
+    //     //modal.find('.modal-body input').val(recipient)
+    //     console.log("criou a variavel global");
+    //     console.log(button);
+    //     console.log(recipient);
+    //     console.log(modal);
+    // });
+
+    // $('#xexcluir').click(function(event) {
+    //     console.log("Dentro do excluir");
+    //     var x = document.getElementById("projeto");
+    //     x.value = z;
+    //     console.log("click em excluir");
+    // });
+
+    // $('#xrenomear').click(function(event) {
+    //     console.log("Dentro do renomear");
+    //     console.log(modal);
+    //     var t = document.getElementById("projeto2");
+    //     t.value = z;
+    //     console.log("click em renomear");
+    // });
+    load index.php
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<div class='modal fade' id='modalExemplo' tabindex='-1' role='dialog' aria-labelledby='exampleModalLabel' aria-hidden='true'>
+  <div class='modal-dialog' role='document'>
+    <div class='modal-content'>
+      <div class='modal-header'>
+        <h5 class='modal-title' id='exampleModalLabel'>Título do modal</h5>
+        <button type='button' class='close' data-dismiss='modal' aria-label='Fechar'>
+          <span aria-hidden='true'>&times;</span>
+        </button>
+      </div>
+      <div class='modal-body'>
+        ...
+      </div>
+      <div class='modal-footer'>
+        <button type='button' class='btn btn-secondary' data-dismiss='modal'>Fechar</button>
+        <button type='button' class='btn btn-primary'>Salvar mudanças</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+    // var coll = document.getElementsByClassName("collapsible");
+    // var i;
+
+    // for (i = 0; i < coll.length; i++) {
+    //     coll[i].addEventListener("click", function() {
+    //         this.classList.toggle("active");
+    //         var content = this.nextElementSibling;
+    //         if (content.style.maxHeight) {
+    //             content.style.maxHeight = null;
+    //         } else {
+    //             content.style.maxHeight = content.scrollHeight + "px";
+    //         }
+    //     });
+    // }
+
+
+     // var atributo = "block";
+
+    // $("#motramodal").click(function() {
+    //     $("#exampleModal").css("display", atributo);
+    //     if (atributo == "block") {
+    //         atributo = "none";
+    //     } else {
+    //         atributo = "block";
+    //     }
+    // });
+
+    // $(".close").click(function() {
+    //     $("#exampleModal").css("display", atributo);
+    //     if (atributo == "block") {
+    //         atributo = "none";
+    //     } else {
+    //         atributo = "block";
+    //     }
+    // })
+
+
+
+    // var coll = document.getElementsByClassName("collapsible");
+    // var i;
+
+    // for (i = 0; i < coll.length; i++) {
+    //     coll[i].addEventListener("click", function() {
+    //         this.classList.toggle("active");
+    //         var content = this.nextElementSibling;
+    //         if (content.style.maxHeight) {
+    //             content.style.maxHeight = null;
+    //         } else {
+    //             content.style.maxHeight = content.scrollHeight + "px";
+    //         }
+    //     });
+    // }
+
+
+
+
+
+    // var taouna = "block";
+    // $("#uncollapse").click(function(){
+    //     // $("#demo /*echo $i*/;?>").style.css("display", taouna);
+    // if ( $("#demo /*echo $i*/?>").is( ".show .in" ) ) {
+    //         $("#demo /* echo $i*/?>").removeClass(".show");
+    //         $("#demo/* echo $i*/?>").removeClass(".in");
+    //         console.log("Dentro do ife ")
+    //         console.log( $("#demo/* echo $i*/?>"))
+    //     }
+    //     console.log("fora do ife");
+    // })
+    // $("#clicarbtn").click(function() {
+
+    //     console.log("Clicando");
+
+    //     $("#descollapsar").css("display","block");
+
+
+
+    // }); 
+    // descollapsar
+    // $header = $(this);
+    // $descollapse = document.getElementById("#descollapsar");
+    //$header = document.getElementById("#clicarbtn");
+    // .css("color", "red");
+    // console.log($header);
+    //getting the next element
+    // $content = $header.next();
+    //open up the content needed - toggle the slide- if visible, slide up, if not slidedown.
+    // $content.slideToggle(500, function() {
+    //execute this after slideToggle is done
+    //change text of header based on visibility of content div
+    //$header.text(function () {
+    //change text based on condition
+    //    return $content.is(":visible") ? "Collapse" : "Expand";
+    // });
+    // });
+
+    // $('#exampleModal').on('show.bs.modal', function(event) {
+    //     zwindow = $('#exampleModal').onclick();
+    //     console.log("entrou no click");
+    //     var button = $(event.relatedTarget); // Botão que acionou o modal
+    //     var recipient = button.data('whatever'); // Extrai informação dos atributos data-*
+    //     // Se necessário, você pode iniciar uma requisição AJAX aqui e, então, fazer a atualização em um callback.
+    //     // Atualiza o conteúdo do modal. Nós vamos usar jQuery, aqui. No entanto, você poderia usar uma biblioteca de data binding ou outros métodos.
+    //     var modal = $(this);
+    //     console.log("passou pelas variaveis");
+    //     modal.find('.modal-title').text(recipient);
+
+    //     z = button.data('whatever');
+    //     // alert (z);
+    //     //modal.find('.modal-body input').val(recipient)
+    //     console.log("criou a variavel global");
+    //     console.log(button);
+    //     console.log(recipient);
+    //     console.log(modal);
+    // });
+
+    // $('#xexcluir').click(function(event) {
+    //     console.log("Dentro do excluir");
+    //     var x = document.getElementById("projeto");
+    //     x.value = z;
+    //     console.log("click em excluir");
+    // });
+
+    // $('#xrenomear').click(function(event) {
+    //     console.log("Dentro do renomear");
+    //     console.log(modal);
+    //     var t = document.getElementById("projeto2");
+    //     t.value = z;
+    //     console.log("click em renomear");
+    // });
+
+
+                        <!-- incio do modal create folder -->
+                        <!-- <div id="myModaladdfolder" class="modal">
+                            <div class="modal-content">
+
+                                <span class="close">&times;</span>
+                                <form action="uploadprojeto.php" method="post">
+                                    <div>
+                                        <?php
+                                        // $t_cliente = str_replace("%20", " ", $tcliente);
+                                        // $path = ("arquivos/" . $t_cliente);
+                                        ?> echo $t_cliente;echo $path
+                                        <input type="text" class="hidden" name="cliente" value="<?php ?>">
+                                        <input type="text" class="hidden" name="path" value="<?php ?>">
+                                        <input type="text" id="nomeclientze" name="projeto" placeholder=" Nome do projeto ">
+                                        <input type="submit" id="enviarclientez" value="ok">
+                                    </div>
+                                </form>
+                            </div>
+                        </div> -->
+
+                        <!-- Fim do modal -->
+
+                        <!-- inicio modal de manipular projeto -->
+
+                        <!-- <div class='modal fade' id='exampleModal' tabindex='-1' role='dialog' aria-labelledby='exampleModalLabel' aria-hidden='true'>
+                            <div class='modal-dialog' role='document'>
+                                <div class='modal-content'>
+                                    <div class='modal-header'>
+                                        <h5 class='modal-title' id='exampleModalLabel' id='fontenome'>Nova mensagem</h5>
+                                        <span class="close">&times;</span>
+                                    </div>
+                                    <div class='modal-body'>
+                                        <form action='_del_client.php' method='post'>
+                                            <input class='hidden' name='confirmacao' value='ok'>
+                                            <input class='hidden' name='cliente' id='projeto' value='" . $cliente . "'>
+                                            <h5 class='modal-title2' id='exampleModalLabel2' id='fontenome2'>Exclusão</h5>
+                                            <input type='submit' value='Excluir Projeto' id="xexcluir" class='tiraefeito'>
+                                        </form>
+                                    </div>
+                                    <div class='modal-body'>
+                                        <form action='_renomeia_cliente.php' id='xrenomear' method='post'>
+                                            <input class='hidden' name='confirmacao' value='ok'>
+                                            <input class='hidden' name='cliente' id='projeto2' value='" . $cliente . "'>
+                                            <h5 class='modal-title2' id='exampleModalLabel3' id='fontenome3'>Renomear</h5>
+                                            <input type='text' name='newname' id='newname' value='' required='required' pattern='[a-zA-Z0-9]+'>
+                                            <input type='submit' value='Renomear projeto' class='tiraefeito'>
+                                        </form>
+                                    </div>
+                                    <div class='modal-footer'>
+                                        <button type='button' class='btn btn-secondary' data-dismiss='modal'>cancelar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+
+                         fimd o modal 
+                        console.log("aqui");
+                        var btn_option = $(event.relatedTarget);
+                        console.log("chegou1",btn_option); // Botão que acionou o modal
+                        var_dump(btn_option);
+                        
+                         var recipient = btn_option.data('whatever'); // Extrai informação dos atributos data-*
+                        console.log("chegou2",recipient);
+                        var_dump(recipient);
+                        
+                        Se necessário, você pode iniciar uma requisição AJAX aqui e, então, fazer a atualização em um callback.
+                        Atualiza o conteúdo do modal. Nós vamos usar jQuery, aqui. No entanto, você poderia usar uma biblioteca de data binding ou outros métodos.
+                        var modal_option = $(this);
+                         console.log("chegou3",modal_option);
+                         var_dump(modal_option);
+                
+                         modal_option.find('#fontenome').text(recipient);
+                         console.log("chegou4",modal_option);
+                         var_dump(modal_);
+                
+                         z = btn_option.data('whatever');
+                         console.log("chegou5",z);
+                
+                        alert (z);
+                         modal.find('.modal-body input').val(recipient)
+
+
+
+                          <!-- <a id='myBtn'>
+                        <img src='imgs/3balls.ico' class='icondiv hover'>
+                        </a> -->
+                        <!-- inicio modal de manipular projeto -->
+                        <!-- Modal do 3 pontinhos-->
+
+                        <!-- <div id="myModaloption" class="modal">
+                             Modal content 
+                            <div class="modal-content" style="margin-top:3%">
+                                <span class="close closeoption">&times;</span>
+                                <form action="" method="post">
+                                    <div class='modal-header'>
+                                        <h5 class='modal-title' id='exampleModalLabel' id='fontenome'></h5>
+                                    </div>
+                                    <div class='modal-body'>
+                                        <form action='_del_client.php' method='post'>
+                                            <input class='hidden' name='confirmacao' value='ok'>
+                                            <input class='' name='cliente' data-projeto=$tcliente id='projeto' value='catapimba'>
+                                            <h5 class='modal-title2' id='exampleModalLabel2' id='fontenome2'>Exclusão</h5>
+                                            <input type='submit' value='Excluir Projeto' id="xexcluir" class='tiraefeito'>
+                                        </form>
+                                    </div>
+                                    <div class='modal-body'>
+                                        <form action='_renomeia_cliente.php' id='xrenomear' method='post'>
+                                            <input class='hidden' name='confirmacao' value='ok'>
+                                            <input class='hidden' name='cliente' id='projeto2' value=$cliente>
+                                            <h5 class='modal-title2' id='exampleModalLabel3' id='fontenome3'>Renomear</h5>
+                                            <input type='text' name='newname' id='newname' value='' required='required' pattern='[a-zA-Z0-9]+'>
+                                            <input type='submit' value='Renomear projeto' class='tiraefeito'>
+                                        </form>
+                                    </div>
+                                    
+                                </form>
+                            </div>
+                        </div>
+
+
+
+                        //função excluir dentro do modal
+    // $('div>#oBotao').click(function() {
+    //     var x = document.getElementById("projeto").value;
+    //     var nomeProjeto =  $('div>#oBotao').data("whatever");;
+        
+    //     console.log(nomeProjeto);
+    //     console.log(x);
+    //     x.value = nomeProjeto;
+    //     console.log(x);
+    //     x = nomeProjeto;
+    //     console.log(x);
+    // })
+//função renomear dentro do modal 
+ -->
+
+
+
+</html>

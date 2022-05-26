@@ -1,0 +1,2 @@
+RewriteRule ^home/         /login.php
+RewriteRule ^style/php.css /style.php

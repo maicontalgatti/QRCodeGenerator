@@ -1,0 +1,77 @@
+/* box-shadow: 0px 3px 10px rgba(50, 50, 50, 0.77) !important; */
+
+.mostrarquivos {
+  width: 80%;
+  align-content: center;
+}
+
+body {
+  background-color: #eee !important;
+  /* background-image: url("includes/imagens/backgroundtransparente.webp");
+    background-size: 100%;
+    background-repeat: no-repeat; */
+}
+
+.p-4 {
+  border-radius: 10px;
+  background-color: white !important;
+  color: black;
+  max-height: 10px !important;
+
+  padding: 0px 0px 0px 0px !important;
+}
+
+.p-3 {
+  border-radius: 10px;
+  color: black;
+}
+
+.caixa {
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+
+}
+
+.enviararquivos {
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+  /* max-height: 400px; */
+  overflow: hidden;
+}
+/* .over{
+  overflow:scroll;
+} */
+.aligncenter {
+  text-align: center;
+  margin-left: auto;
+  padding-left: auto;
+  margin-right: auto;
+  padding-right: auto;
+  max-width: -moz-available;
+}
+
+.caixapadrao {
+  border-radius: 10px;
+  /* border: solid black 2px; */
+  width: 100%;
+  margin-top: 20px;
+  margin-left:30px;
+  background-color: #FFF;
+  /* min-height: 380px; */
+}
+
+.submit {
+  margin-bottom: 15px;
+}
+.padtopbottom{
+  padding-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.rightblockmargin{
+  margin-right: 20px;
+}
+.padrl{
+margin-left: 10px;
+margin-right: 10px;
+}

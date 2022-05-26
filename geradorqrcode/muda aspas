@@ -1,0 +1,15 @@
+<div id='manipulaarquivomodal" . $i . $j . "' class='modal' style='height:200px;width:300px;'>
+                                        <h5 class='modal-title'>" . $projeto . "</h5>
+                                       
+                                            <div class='modal-body'>
+                                            <form action='delete_arquivo.php' method='post'>
+                                                <input class='hidden' name='confirmacao' value='ok'>
+                                                <input class='hidden' name='projeto' value='" . $projeto . "'>
+                                                <input class='hidden' name='cliente' value='" . $t_cliente . "'>
+                                                <input class='hidden' name='arquivo' value='" . $arquivo . "'>
+                                                <h5 class='modal-title2' id='exampleModalLabel2' id='fontenome2'>Exclusão</h5>
+                                                <input type='submit' name='confirmacao2' value='Excluir arquivo' id='xexcluir' class='tiraefeito'>
+                                            </form>
+                                            </div>
+                                        
+                                </div>
